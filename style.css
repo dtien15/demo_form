@@ -1,0 +1,441 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+/* Common */
+
+span {
+    font-style: italic;
+    font-size: 1.4rem;
+}
+
+.main__content {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: thin black dotted;
+}
+input:focus {
+    outline: none;
+}
+
+input[type=radio] {
+    border: none;
+    padding: 0.5em;
+    -webkit-appearance: none;
+    outline: 0.1em solid black;
+    outline-offset: 0.1em;
+  }
+
+input[type=radio]:checked {
+    display: inline-block;
+    background-image: url(./check-regular-24.png);
+    background-repeat: no-repeat;
+    background-position-y: -6px;
+    background-position-x: -5px;
+    width: 10px;
+}
+/* Main */
+.main {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border: 1px solid;
+}
+/* Header */
+header .main__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header {
+    margin-top: 40px;
+    /* background-color: aquamarine; */
+}
+
+.header__heading {
+    font-size: 30px;
+    font-weight: 600;
+    width: 40%;
+    text-align: center;
+}
+
+.header__left {
+    width: 30%;
+}
+
+.header__left input:nth-last-of-type(2) {
+    width: 35%;
+}
+
+.header__left input:nth-of-type(2) {
+    width: 62%;
+}
+
+.header__left input:nth-of-type(4) {
+    width: 15%;
+}
+
+.header__right {
+    padding-left: auto;
+    width: 25%;
+}
+
+.header__right input {
+    width: 15%;
+}
+
+.header__right input:nth-of-type(1) {
+    width: 60%;
+}
+
+
+input.square {
+    border: initial;
+    border: 1px solid;
+    width: 20px;
+    
+}
+
+.rec {
+    border: initial;
+    border: 1px solid;
+    width: 70px !important;
+}
+
+
+/* heaing */
+.heading {
+    font-weight: 600;
+    margin-top: 40px;
+}
+/*  */
+.col__2 {
+    display: flex;
+  
+}
+
+.col__2 .fullname {
+    width: 50%;
+}
+
+.col__2 .fullname input {
+    width: 63%;
+}
+.col__2 .age {
+    margin-left: auto;
+}
+
+
+.col__2 .gender {
+    width: 50%;
+}
+
+.col__2 .gender label:first-child{
+    margin-left: 0;;
+}
+
+.col__2 .gender label{
+    margin: 0 20px;
+}
+
+.col__2 .job {
+    width: 50%;
+}
+
+
+
+.col__2 .job input:nth-of-type(2) {
+    margin-left: 30px;
+ }
+
+
+ .col__full input:nth-of-type(1) {
+    width: 8%;
+ }
+
+ .col__full input:nth-of-type(3) {
+    width: 33%;
+ }
+ .col__full input:nth-of-type(4) {
+    width: 37%;
+ }
+
+ .col__full input:nth-of-type(7) {
+    width: 25%;
+ }
+
+ /*  */
+ .col__2 .workplace  {
+    width: 52%;
+ }
+
+.col__2 .workplace input{
+    width: 74%;
+}
+/*  */
+
+.col__full .date input:nth-of-type(1) {
+    width: 5%;
+}
+
+.col__full .date input:nth-of-type(2) {
+    width: 5%;
+}
+.col__full .date input:nth-of-type(3) {
+    width: 8%;
+}
+
+.col__full .date input:nth-of-type(4) {
+    margin-left: 40px;
+    width: 50px !important;
+}
+.col__full .date input:nth-of-type(5) {
+    width: 50px !important;
+}
+
+.col__full .date input:nth-of-type(6) {
+    width: 50px !important;
+}
+/*  */
+
+.col__full .name {
+    width: 100%;
+}
+
+.col__full .name input:nth-of-type(1) {
+    display: inline-block;
+    width: 63% !important;
+}
+.col__full .name input:nth-of-type(2) {
+    display: inline-block;
+    width: 55% !important;
+}
+
+/* Quan lý ng bệnh */
+
+.manage__content--left {
+    padding: 8px;
+    border: 1px solid;
+    border-right: none;
+    border-top: none;
+    width: 60%;
+}
+
+
+.manage__content--right  {
+    padding: 8px;
+    border: 1px solid;
+    border-top: none;
+    width: 52%;
+}
+
+.manage__content--left.border__top {
+    border-top: 1px solid;
+  }
+
+.manage__content--right.border__top {
+  border-top: 1px solid;
+}
+
+.manage__center {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+.rec__block {
+   display: inline-block;
+}
+
+/*  */
+
+.dia__left {
+    padding: 8px;
+    border: 1px solid;
+    width: 50%;
+}
+
+.dia__left input:nth-of-type(1) {
+    width: 72%;
+}
+
+.dia__left input:nth-of-type(2) {
+    width: 80%;
+}
+
+.dia__left input:nth-of-type(7) {
+    width: 73%;
+}
+
+.dia__left input:nth-of-type(8) {
+    width: 80%;
+}
+
+.dia__left input:nth-of-type(13) {
+    width: 66%;
+}
+
+.dia__left input:nth-of-type(14) {
+    width: 80%;
+}
+
+.dia__left label:nth-last-of-type(1) {
+    margin-left: 100px;
+}
+
+
+
+.dia__right {
+    padding: 8px;
+    border: 1px solid;
+    border-left: none;
+    width: 50%;
+}
+
+.dia__right input:nth-of-type(1) {
+    width: 80%;
+}
+
+.dia__right input:nth-of-type(2) {
+    width: 99%;
+}
+
+.dia__right input:nth-of-type(3) {
+    width: 80%;
+}
+
+.dia__right input:nth-of-type(8) {
+    width: 75%;
+}
+
+.dia__right input:nth-of-type(9) {
+    width: 80%;
+}
+
+
+.dia__right label:nth-last-of-type(1) {
+    margin-left: 100px;
+}
+
+/* status */
+
+.status__left {
+    padding: 10px;
+    border: 1px solid;
+    width: 50%;
+}
+
+.status__left input:nth-of-type(1) {
+    margin-left: 90px;
+}
+
+.status__left input:nth-of-type(2) {
+    margin-left: 50px;
+}
+
+.status__left input:nth-of-type(3) {
+    margin-left: 65px;
+}
+
+.status__left input:nth-of-type(4) {
+    margin-left: 59px;
+}
+
+.status__left input:nth-of-type(5) {
+    margin-left: 31px;
+}
+
+.status__right {
+    padding: 10px;
+    border: 1px solid;
+    border-left: none;
+    width: 100%;
+    
+}
+
+.status__right input:nth-of-type(6) {
+    margin-left: 134px;
+}
+
+.status__right input:nth-of-type(7) {
+    margin-left: 35px;
+}
+
+.status__right input:nth-of-type(8) {
+    margin-left: 65px;
+}
+
+.status__right input:nth-of-type(9) {
+    margin-left: 59px;
+}
+
+.status__right input:nth-of-type(10) {
+    margin-left: 31px;
+}
+
+.status__right input:nth-of-type(11) {
+    width: 67%;
+}
+
+
+.status__right input:nth-of-type(12) {
+    width: 85%;
+}
+
+.status__right input:nth-of-type(18) {
+    width: 41%;
+}
+
+.status__right input:nth-of-type(19) {
+    width: 85%;
+}
+
+/* sign */
+
+.sign__date {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+}
+
+.sign__date input  {
+    width: 50px;
+}
+
+.sign .main__content--title {
+    margin-top: 40px;
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sign .main__content--title p {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.sign .main__content--sign {
+    margin-top: 40px;
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Bệnh án nội khoa</title>
+</head>
+<body>
+    <div class="main">
+        <header>
+            <div class="main__content">
+                <div class="header__left">
+                    <label for="">Sở Y tế:</label>
+                    <input type="text"><br>
+                    <label for="">Bệnh viện:</label>
+                    <input type="text"><br>
+    
+                    <label for="">Khoa:</label>
+                    <input type="text">
+    
+                    <label for="">Giường:</label>
+                    <input type="text">
+    
+                </div>
+                <h1 class="header__heading">BỆNH ÁN NỘI KHOA</h1>
+                <div class="header__right">
+                    <label for="">Số lưu trữ:</label>
+                    <input type="text"><br>
+    
+                    <label for="">Mã YT:</label>
+                    <input type="text">/
+                    <input type="text">/
+                    <input type="text">/
+                    <input type="text">
+    
+                </div>
+            </div>
+        </header>
+        <div class="main__content">
+            <h2 class="heading">I. HÀNH CHÍNH</h2>
+        </div>
+        <div class="infor">
+            <div class="main__content">
+                <div class="infor__content">
+                    <div class="col__2">
+                        <div class="fullname">
+                            <label for="">1. Họ và tên (In hoa): </label>
+                            <input type="text">
+                        </div>
+                  
+                        <div class="since">
+                            <label for="">2. Sinh ngày:</label>
+                            <input class="square" type="text">
+                            <input class="square" type="text">
+                            <input class="square" type="text">
+                            <input class="square" type="text">
+                            <input class="square" type="text">
+                            <input class="square" type="text">
+                            <input class="square" type="text">
+                            <input class="square" type="text">
+                        </div>
+                        <div class="age">
+                            <label for="">Tuổi</label>
+                            <input class="square" type="text">
+                            <input class="square" type="text">
+                        </div>
+                    </div>
+
+                    <div class="col__2">
+                        <div class="gender">
+                            <label for="">3. Giới: </label>
+                            <label for="">1. Nam </label>
+                            <input type="radio" id="gender" name="gender" value="Nam">
+                            <label for="">2. Nữ </label>
+                            <input type="radio" id="gender" name="gender" value="Nữ"><br>
+                        </div>
+
+                        <div class="job">
+                            <label for="">4. Nghề nghiệp</label>
+                            <input style="width: 63.5%;" type="text">
+                            <input class="square" type="text">
+                            <input class="square" type="text">
+                        </div>
+                    </div>
+
+                    <div class="col__2">
+                        <div class="gender">
+                            <label for="">5. Dân tộc:  </label>
+                            <input type="text" name="" id="">
+                            <input class="square" type="text">
+                            <input class="square" type="text">
+                        </div>
+
+                        <div class="job">
+                            <label for="">6. Ngoại kiều: </label>
+                            <input style="width: 65%;" type="text">
+                            <input class="square" type="text">
+                            <input class="square" type="text">
+                        </div>
+                    </div>
+
+                    <div class="col__full">
+                        <label for="">7. Địa chỉ: Số nhà : </label>
+                        <input type="text">
+                        <label for="">Thôn, phố</label>
+                        <input type="text">
+                        <label for="">Xã, phường</label>
+                        <input type="text">
+                        <label for="">Huyện (Q, Tx)  </label>
+                        <input type="text">
+                        <input class="square" type="text">
+                        <input class="square" type="text">
+                        <label for="">Tỉnh, thành phố  </label>
+                        <input type="text">
+                        <input class="square" type="text">
+                        <input class="square" type="text">
+                    </div>
+
+                    <div class="col__2">
+                        <div class="workplace">
+                            <label for="">8. Nơi làm việc  </label>
+                            <input type="text" name="" id="">
+                        </div>
+
+                        <div class="object">
+                            <label for="">9. Đối tượng:   </label>
+                            <span>1.BHYT</span>
+                            <input class="square" type="text">
+                            <span>2.Thu phí</span>
+                            <input class="square" type="text">
+                            <span>3.Miễn</span>
+                            <input class="square" type="text">
+                            <span>4.Khác</span>
+                            <input class="square" type="text">
+
+                        </div>
+                    </div>
+
+                    <div class="col__full">
+                         <div class="date">
+                            <label for="">10. BHYT giá trị đến ngày</label>
+                            <input type="text">
+                            <label>tháng</label>
+                            <input type="text">
+                            <label>năm</label>
+                            <input type="text">
+                            <label>Số thẻ BHYT </label>
+                                  
+                            <input class="rec" type="text">
+                            <input class="rec" type="text">
+                            <input class="rec" type="text">
+                            <input class="rec" type="text">
+                         </div>
+                                
+                    </div>
+               
+                    <div class="col__full">
+                        <div class="name">
+                            <label for="">11. Họ tên, địa chỉ người nhà khi cần báo tin: </label>
+                            <input type="text">
+                            <input type="text">
+                            <label for="">Điện thoại số</label>
+                            <input type="text">
+                        </div>
+                            
+                   </div>
+                </div>
+            </div>     
+        </div>
+        <div class="main__content">
+            <h2 class="heading">II. QUẢN LÝ NGƯỜI BỆNH</h2>
+        </div>
+        <div class="manage">
+            <div class="main__content">
+                <div class="manage__content">
+                    <div class="col__2">
+                        <div class="manage__content--left border__top">
+                            <label for="">12. Vào viện: </label>
+                            <input style="width: 4.2%" type="text">
+                            <label for="">giờ</label>
+                            <input style="width: 4.2%"  type="text">
+                            <label for="">phút</label>
+                            <label for="">ngày</label>
+                            <input style="width: 4.2%"  type="text">/
+                            <input style="width: 4.2%"  type="text">/
+                            <input style="width: 9.3%"  type="text"><br>
+
+                            <label for="">13. Trực tiếp vào </label>
+                            <span>1.Cấp cứu</span>
+                            <input class="square" type="text">
+                            <span>2.KKB</span>
+                            <input class="square" type="text">
+                            <span>3.Khoa điều trị</span>     
+                            <input class="square" type="text">
+
+                        </div>
+
+                        <div class="manage__content--right border__top">
+                            <label for="">14.Nơi giới thiệu</label>
+                            <span>1.Cơ quan y tế</span>
+                            <input class="square" type="text">
+                            <span>2.Tự đến</span>
+                            <input class="square" type="text">
+                            <span>3.Khác</span>
+                            <input class="square" type="text">
+                            <br>
+                            
+                            <label for="">- Vào viện do bệnh này lần thứ </label>
+                            <input class="square" type="text">
+
+                        </div>
+                    </div>
+
+                    <div class="col__2">
+                        <div class="manage__content--left">
+                            <label for="">15. Vào khoa: </label>
+                            <input style="margin-left: 44px;" class="rec" type="text">
+                        
+                            <input style="width: 4.2%" type="text">
+                            <label for="">giờ</label>
+                            <input style="width: 4.2%"  type="text">
+                            <label for="">phút</label>
+                            <input style="width: 4.2%"  type="text">/
+                            <input style="width: 4.2%"  type="text">/
+                            <input style="width: 9.3%"  type="text">
+                            <input class="square" type="text">
+                            <input class="square" type="text">
+                       
+                           
+                            <div class="manage__center">
+                                <label  style="width: 400px;" for="">16. Chuyển khoa: </label>
+                                <div class="rec__block">
+                                    <input class="rec" type="text"><br>
+                                    <input class="rec" type="text"><br>
+                                    <input class="rec" type="text">
+                               </div>
+                               <div class="rec__block">
+                                    <input style="width: 7%" type="text">
+                                    <label for="">giờ</label>
+                                    <input style="width: 7%"  type="text">
+                                    <label for="">phút</label>
+                                    <input style="width: 7%"  type="text">/
+                                    <input style="width: 7%"  type="text">/
+                                    <input style="width: 15%"  type="text">
+                                    <input class="square" type="text">
+                                    <input class="square" type="text">
+                                    <br>
+
+                                    <input style="width: 7%" type="text">
+                                    <label for="">giờ</label>
+                                    <input style="width: 7%"  type="text">
+                                    <label for="">phút</label>
+                                    <input style="width: 7%"  type="text">/
+                                    <input style="width: 7%"  type="text">/
+                                    <input style="width: 15%"  type="text">
+                                    <input class="square" type="text">
+                                    <input class="square" type="text">
+                                    <br>
+
+                                    <input style="width: 7%" type="text">
+                                    <label for="">giờ</label>
+                                    <input style="width: 7%"  type="text">
+                                    <label for="">phút</label>
+                                    <input style="width: 7%"  type="text">/
+                                    <input style="width: 7%"  type="text">/
+                                    <input style="width: 15%"  type="text">
+                                    <input class="square" type="text">
+                                    <input class="square" type="text">
+                                
+                               </div>
+                            </div>
+                    
+                            
+
+                        </div>
+
+                        <div class="manage__content--right">
+                            <label for="">17. Chuyển viện: </label>
+                            <span>1.Tuyến trên</span>
+                            <input class="square" type="text">
+                            <span>2.Tuyến dưới</span>
+                            <input class="square" type="text">
+                            <span>3.CK</span>
+                            <input class="square" type="text">
+                            <br>
+                           <label for="">- Chuyển đến</label>
+                           <input type="text"><br>
+                           <input type="text"><br>
+
+                           <label for="">18. Ra viện: </label>
+                           <input style="width: 7%" type="text">
+                           <label for="">giờ</label>
+                           <input style="width: 7%"  type="text">
+                           <label for="">phút</label>
+                           <input style="width: 7%"  type="text">/
+                           <input style="width: 7%"  type="text">/
+                           <input style="width: 15%"  type="text"><br>
+
+                           <span>1. Ra viện</span>
+                           <input class="square" type="text">
+                           <span>2. Xin về</span>
+                           <input class="square" type="text">
+                           <span>3. Bỏ về</span>
+                           <input class="square" type="text">
+                           <span>4. Đưa về</span>
+                           <input class="square" type="text"><br>
+
+                           <label for="">19. Tổng số ngày điều trị</label>
+                           <input type="text">
+                           <input class="square" type="text">
+                           <input class="square" type="text">
+                           <input class="square" type="text">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="main__content">
+            <h2 class="heading">III. CHẨN ĐOÁN</h2>
+        </div>
+        <div class="diagnose" >
+            <div class="main__content">
+               <div class="col__2">
+                    <div class="dia__left">
+                        <label for="">20. Nơi chuyển đến:</label>
+                        <input type="text"><br>
+                        <input type="text">
+                        <input class="square" type="text">
+                        <input class="square" type="text">
+                        <input class="square" type="text">
+                        <input class="square" type="text"><br>
+
+                        <label for="">21. KKB, Cấp cứu: </label>
+                        <input type="text"><br>
+                        <input type="text">
+                        <input class="square" type="text">
+                        <input class="square" type="text">
+                        <input class="square" type="text">
+                        <input class="square" type="text"><br>
+
+                        <label for="">22. Khi vào khoa điều trị</label>
+                        <input type="text"><br>
+                        <input type="text">
+                        <input class="square" type="text">
+                        <input class="square" type="text">
+                        <input class="square" type="text">
+                        <input class="square" type="text"><br>
+
+                        <label for="">+Thủ thuật:</label>
+                        <input class="square" type="text">
+
+                        <label for="">+Phẫu thuật:</label>
+                        <input class="square" type="text">
+
+                    </div>
+                    <div class="dia__right">
+                        <label for="">23. Ra viện: </label><br>
+                        <label for="">+ Bệnh chính: </label>
+                        <input type="text"><br>
+                        <input type="text"><br>
+                        <input type="text">
+                        <input class="square" type="text">
+                        <input class="square" type="text">
+                        <input class="square" type="text">
+                        <input class="square" type="text"><br>
+
+
+                        <label for="">+ Bệnh kèm theo: </label>
+                        <input type="text"><br>
+                        <input type="text">
+                        <input class="square" type="text">
+                        <input class="square" type="text">
+                        <input class="square" type="text">
+                        <input class="square" type="text"><br>
+
+                        <label for="">+ Tai biến: </label>
+                        <input class="square" type="text">
+                        <label for="">+ Biến chứng:</label>
+                        <input class="square" type="text">
+
+                    </div>
+               </div>
+            </div>
+        </div>
+
+        <div class="main__content">
+            <h2 class="heading">IV. TÌNH TRẠNG RA VIỆN</h2>
+        </div>
+        <div class="status">
+            <div class="main__content">
+                <div class="col__2">
+                    <div class="status__left">
+                        <label for="">24. Kết quả điều trị</label><br>
+                        <span>1. Khỏi</span>
+                        <input class="square" type="text">
+                        <span>4. Năng hơn</span>
+                        <input class="square" type="text"><br>
+    
+                        <span>2. Đỡ, giảm</span>
+                        <input class="square" type="text">
+                        <span>5. Tử vong</span>
+                        <input class="square" type="text"><br>
+    
+                        <span>3. Không thay đổi</span>
+                        <input class="square" type="text"><br>
+    
+                        <label for="">25. Giải phẫu bệnh (khi có sinh thiết):</label><br>
+                        <span>1. Lành tính</span>
+                        <input class="square" type="text">
+                        <span>2. Nghi ngờ</span>
+                        <input class="square" type="text">
+                        <span>3. Ác tính</span>
+                        <input class="square" type="text">
+    
+                    </div>
+                    <div class="status__right">
+                        <label for="">26. Tình hình tử vong:</label>
+                        <input style="width: 4.2%" type="text">
+                        <label for="">giờ</label>
+                        <input style="width: 4.2%"  type="text">
+                        <label for="">phút</label>
+                        <label for="">ngày</label>
+                        <input style="width: 4.2%"  type="text">/
+                        <input style="width: 4.2%"  type="text">/
+                        <input style="width: 9.3%"  type="text"><br>
+
+                        <span>1. Do bệnh</span>
+                        <input class="square" type="text">
+                        <span>2. Do tai biến điều trị</span>
+                        <input class="square" type="text">
+                        <span>3. Khác</span>
+                        <input class="square" type="text"><br>
+
+                        <span>1. Trong 24 giờ vào viện</span>
+                        <input class="square" type="text">
+                        <span>2. Sau 24 giờ vào viện</span>
+                        <input class="square" type="text"><br>
+
+                        <label for="">27. Nguyên nhân chính tử vong:</label>
+                        <input type="text"><br>
+                        <input type="text">
+                        <input class="square" type="text">
+                        <input class="square" type="text">
+                        <input class="square" type="text">
+                        <input class="square" type="text"><br>
+
+                        <label for="">28. Khám nghiệm tử thi:</label>
+                        <input class="square" type="text">
+
+                        <label for="">29. Chẩn đoán giải phẫu tử thi:</label>
+                        <input type="text"><br>
+                        <input type="text">
+                        <input class="square" type="text">
+                        <input class="square" type="text">
+                        <input class="square" type="text">
+                        <input class="square" type="text">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sign">
+            <div class="main__content">
+                <div class="sign__date">
+                    <span>Ngày</span>
+                    <input type="text">
+                    <span>tháng</span>
+                    <input type="text">
+                    <span>năm</span>
+                    <input type="text">
+                </div>  
+            </div>
+            <div class="main__content--title">
+                <div class="sign__left"><p>Giám đốc bệnh viện</p> </div>
+                <div class="sign__right"><p>Trưởng khoa</p> </div>
+            </div>
+            <div class="main__content--sign">
+                <div class="sign__left"><label for="">Họ và tên </label><input type="text"></div>
+                <div class="sign__right"><label for="">Họ và tên </label><input type="text"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
